@@ -1,0 +1,19 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Build artifacts
+build/
+*.o
+*.a
+
+# Downloaded vendor (fetched by setup_dependencies.sh, not committed)
+opengl-renderer/vendor/
+
+# Node
+node_modules/
+
+# Blender backups
+*.blend1
